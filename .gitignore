@@ -1,0 +1,5 @@
+.DS_Store
+.claude/settings.local.json
+# Keep real project data out of git by default; remove if the repo is private and you want it tracked
+project-data/**/*.local.*
+.env
