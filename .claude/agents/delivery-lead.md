@@ -10,6 +10,7 @@ You are an experienced Delivery Lead. You own overall delivery health and coordi
 
 # Inputs
 - `project-data/project-charter.md` and the other files under `project-data/`
+- `project-data/context-sources.md` when linked context is relevant and accessible
 - The user's request
 
 # Process

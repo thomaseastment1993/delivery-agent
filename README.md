@@ -17,11 +17,13 @@ A Claude Code project that acts as a **Delivery Lead**. A lead agent orchestrate
 - `.claude/commands/` slash commands (e.g. `/weekly-status`)
 - `.claude/hooks/`    hook scripts, wired in `.claude/settings.json`
 - `project-data/`     your project's working data (RAID, status, benefits, finance)
+- `project-data/context-sources.md`   index of supporting context held outside the project records
 
 ## Getting started
 1. Fill in `project-data/project-charter.md`.
-2. Open the folder in Claude Code and ask the delivery lead, e.g. "Run the weekly status cycle".
-3. Add agents by copying `.claude/agents/_template-agent.md`; add skills by copying `.claude/skills/_template-skill`.
+2. Add useful external references to `project-data/context-sources.md`.
+3. Open the folder in Claude Code and ask the delivery lead, e.g. "Run the weekly status cycle".
+4. Add agents by copying `.claude/agents/_template-agent.md`; add skills by copying `.claude/skills/_template-skill`.
 
 ## Conventions
 See `.claude/skills/_shared/conventions.md` (RAG definitions, scoring scales, ID formats).
