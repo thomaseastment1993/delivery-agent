@@ -21,7 +21,7 @@ Consistent qualitative risk scoring.
 4. Set trigger/review date.
 
 ## Output
-Scored risk entry plus ranked top-risk list.
+Scored risk entry plus ranked top-risk list, plus an Excel workbook `project-data/previous_outputs/YYYY-MM-DD-risks.xlsx` (register and top-risks sheets). Also produce the deliverable per "Output formats" in `../_shared/conventions.md`.
 
 ## References
 Follow `../_shared/conventions.md`. Add supporting material to `references/`.

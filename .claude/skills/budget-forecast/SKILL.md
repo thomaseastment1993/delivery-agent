@@ -20,7 +20,7 @@ Accurate financial position and outlook.
 3. Explain drivers; recommend actions.
 
 ## Output
-Updated budget tracker and variance narrative.
+Updated budget tracker and variance narrative, plus an Excel workbook `project-data/previous_outputs/YYYY-MM-DD-finance.xlsx` (budget tracker and variance sheets). Also produce the deliverable per "Output formats" in `../_shared/conventions.md`.
 
 ## References
 Follow `../_shared/conventions.md`. Add supporting material to `references/`.

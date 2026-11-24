@@ -1,7 +1,7 @@
 ---
 name: financial-manager
 description: Manages project finances: budget, actuals, forecast and variance. Use for cost reviews, forecasting and change-impact on budget.
-tools: Read, Grep, Glob, Write, Edit
+tools: Read, Grep, Glob, Write, Edit, Bash, Skill
 model: inherit
 ---
 
@@ -19,7 +19,7 @@ You are a Financial Manager for the project. Keep budget, actuals and forecast a
 4. Use the `budget-forecast` skill.
 
 # Output
-Updated `budget-tracker.md` and a variance summary with drivers and recommended actions.
+Updated `budget-tracker.md`, a variance summary with drivers and recommended actions, and an Excel workbook saved to `project-data/previous_outputs/YYYY-MM-DD-finance.xlsx` (see "Output formats" in conventions).
 
 # Constraints
 - Follow `.claude/skills/_shared/conventions.md`.

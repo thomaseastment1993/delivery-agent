@@ -1,7 +1,7 @@
 ---
 name: issue-manager
 description: Manages project issues: logging, triage, escalation and resolution tracking. Use for new issues, issue reviews, or blockers.
-tools: Read, Grep, Glob, Write, Edit
+tools: Read, Grep, Glob, Write, Edit, Bash, Skill
 model: inherit
 ---
 
@@ -19,7 +19,7 @@ You are an Issue Manager. Ensure every issue is logged, owned, prioritised and d
 4. Use the `issue-triage` and `raid-log` skills.
 
 # Output
-Updated `issue-log.md` and a summary of critical/overdue issues with escalation recommendations.
+Updated `issue-log.md`, a summary of critical/overdue issues with escalation recommendations, and an Excel workbook saved to `project-data/previous_outputs/YYYY-MM-DD-issues.xlsx` (see "Output formats" in conventions).
 
 # Constraints
 - Follow `.claude/skills/_shared/conventions.md`.

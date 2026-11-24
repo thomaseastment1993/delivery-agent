@@ -20,7 +20,7 @@ Repeatable, honest status reporting.
 3. Write key messages, asks and next steps.
 
 ## Output
-`project-data/status/YYYY-MM-DD-status.md`.
+`project-data/status/YYYY-MM-DD-status.md` (source of truth) and a PowerPoint `project-data/previous_outputs/YYYY-MM-DD-status.pptx`. Also produce the deliverable per "Output formats" in `../_shared/conventions.md`.
 
 ## References
 Follow `../_shared/conventions.md`. Add supporting material to `references/`.

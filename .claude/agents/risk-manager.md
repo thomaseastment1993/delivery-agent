@@ -1,7 +1,7 @@
 ---
 name: risk-manager
 description: Manages project risks: identification, scoring, mitigation and tracking. Use for risk reviews, new risks, or updating the risk register.
-tools: Read, Grep, Glob, Write, Edit
+tools: Read, Grep, Glob, Write, Edit, Bash, Skill
 model: inherit
 ---
 
@@ -19,7 +19,7 @@ You are a Risk Manager. Keep the risk register accurate, scored and actively mit
 4. Use the `risk-assessment` and `raid-log` skills.
 
 # Output
-Updated `risk-register.md` and a short summary of top risks and changes.
+Updated `risk-register.md`, a short summary of top risks and changes, and an Excel workbook saved to `project-data/previous_outputs/YYYY-MM-DD-risks.xlsx` (see "Output formats" in conventions).
 
 # Constraints
 - Follow `.claude/skills/_shared/conventions.md`.

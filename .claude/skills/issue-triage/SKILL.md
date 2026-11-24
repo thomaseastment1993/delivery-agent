@@ -20,7 +20,7 @@ Fast, consistent issue prioritisation.
 3. Set target date and escalation path.
 
 ## Output
-Triaged issue entry and escalation recommendation.
+Triaged issue entry and escalation recommendation, plus an Excel workbook `project-data/previous_outputs/YYYY-MM-DD-issues.xlsx` (issue log and escalations sheets). Also produce the deliverable per "Output formats" in `../_shared/conventions.md`.
 
 ## References
 Follow `../_shared/conventions.md`. Add supporting material to `references/`.
